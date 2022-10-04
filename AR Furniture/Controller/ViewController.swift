@@ -8,13 +8,12 @@
 import UIKit
 import ARKit
 import RealityKit
-import Combine
+
 class ViewController: UIViewController {
     
     //MARK: - Properties
     let itemsArray: [String] = ["sofa", "chair", "chair2", "table", "dresser", "seat"]
     var selectedItem: String?
-    var cancelable: AnyCancellable?
     @IBOutlet weak var itemsCollectionView: UICollectionView!
     @IBOutlet weak var arView: ARView!
     var mainScene: Experience.MainScene =  try! Experience.loadMainScene()
@@ -38,6 +37,12 @@ class ViewController: UIViewController {
         arView.session.run(configuration)
     }
     
+    func placeObject(_ node: Entity, at result: ARRaycastResult){
+        let anchor = AnchorEntity(raycastResult: result)
+        anchor.addChild(node)
+        arView.scene.addAnchor(anchor)
+    }
+    
     //MARK: - Selectors
     @objc func handleTap(sender: UITapGestureRecognizer){
         let tapLocation = sender.location(in: arView)
@@ -53,11 +58,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func placeObject(_ node: Entity, at result: ARRaycastResult){
-        let anchor = AnchorEntity(raycastResult: result)
-        anchor.addChild(node)
-        arView.scene.addAnchor(anchor)
-    }
+    
 
 }
 
