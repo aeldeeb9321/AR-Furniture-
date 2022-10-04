@@ -1,0 +1,618 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "F9610871-0955-494F-A5C3-51D1A281BAB3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "5AAC2AAA-D7E3-4DCF-8F6F-18BC77BA6EBB" : null,
+                  "7EA6A49B-EFF9-4A02-B19F-989F994121F9" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Dining Table"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "BAE7E9D0-FF2E-4614-A276-CA6024532A4D"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.DiningTable.a97e614b-2c63-4997-8a71-563aa9261a6a",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "A63C06F9-D0EF-42C3-9B05-F782B72602E7"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "table"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0.21756470203399658,
+                        0,
+                        1.0151309967041016,
+                        1
+                      ]
+                    }
+                  },
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "364FA8AC-85C8-40CF-A447-76BEC55BD5CF" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Dining Chair High Back"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "ED2137B1-54F6-45BC-909A-F2748F8A3603"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.DiningChairHighBack.adb893d3-4d98-47d5-a01c-97f584ea7aea",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "3514F938-4AAF-40E6-A244-269F171C34DD"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "chair"
+                          }
+                        ],
+                        [
+                          "isAccessibilityEnabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        2.0186679363250732,
+                        0,
+                        -0.21300816535949707,
+                        1
+                      ]
+                    }
+                  },
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "0744DFC1-52A6-45C9-B7A2-B754F6438D17" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Diner Booth"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "632845CE-A6AB-4BCA-94AC-0F382086461D"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "667E598A-264E-4084-B378-CF08293C3BFA"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.DinerBooth.dda311e5-5b9e-450a-b6db-aa0714497d4f",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C5D3CE39-AF32-45CC-955A-0B98FFCA0125"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "sofa"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        -0.028865596279501915,
+                        0,
+                        -0.069134116172790527,
+                        1
+                      ]
+                    }
+                  },
+                  "256917ED-7041-4ABF-851F-C8BDC233F7EA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Dresser"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B997375C-FCC0-42EB-9C18-7AC04800BDB1"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Dresser.8311ba23-42cf-4171-8262-5810a7867dd3",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "8C02B312-098A-4AB2-9165-51FACB4D628E"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "dresser"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        2.1506147384643555,
+                        0,
+                        0.88909506797790527,
+                        1
+                      ]
+                    }
+                  },
+                  "763670DD-E2EA-4974-830B-A5AC7A41A1D5" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Bench"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B7093C93-CEB7-4C67-8256-350268A4894D"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Bench.19f5d223-4720-4cba-a5ed-a396e09b3839",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "AA00141B-3923-4BA7-B0D3-25BCDFC5B809"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "seat"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0.034316301345825195,
+                        0,
+                        2.4392457008361816,
+                        1
+                      ]
+                    }
+                  },
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "E2BE72F8-50DD-4E82-B614-45D5CF638DB8" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Tall Chair"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "DC257281-9EF5-477C-B1B3-48A10DF380D5"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.TallChair.b6044822-4d19-4d2b-b455-b754168345cc",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "62A4BC07-2DE1-408A-9280-A083412DC94C"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "chair2"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.75,
+                        0,
+                        1.6826106309890747,
+                        0,
+                        2.0036344528198242,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Main Scene",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.80332690477371216,
+                  7.0934538243250245e-09,
+                  -0.59553825855255127,
+                  0,
+                  -0.23688229918479919,
+                  0.91748881340026855,
+                  -0.31953266263008118,
+                  0,
+                  0.54639965295791626,
+                  0.39776173233985901,
+                  0.73704338073730469,
+                  0,
+                  2.7426402568817139,
+                  1.9135291576385498,
+                  4.0007524490356445,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

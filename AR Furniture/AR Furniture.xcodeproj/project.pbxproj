@@ -14,6 +14,7 @@
 		255CFCCE28EB70B100B3E6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255CFCCD28EB70B100B3E6DA /* Assets.xcassets */; };
 		255CFCD128EB70B100B3E6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255CFCCF28EB70B100B3E6DA /* LaunchScreen.storyboard */; };
 		255CFCDD28EB8C6C00B3E6DA /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255CFCDC28EB8C6C00B3E6DA /* ItemCell.swift */; };
+		255CFD0828ECBF3600B3E6DA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 255CFD0728ECBF3600B3E6DA /* Experience.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		255CFCD028EB70B100B3E6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		255CFCD228EB70B100B3E6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		255CFCDC28EB8C6C00B3E6DA /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		255CFD0728ECBF3600B3E6DA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				255CFCCD28EB70B100B3E6DA /* Assets.xcassets */,
 				255CFCCF28EB70B100B3E6DA /* LaunchScreen.storyboard */,
 				255CFCD228EB70B100B3E6DA /* Info.plist */,
+				255CFD0728ECBF3600B3E6DA /* Experience.rcproject */,
 			);
 			path = "AR Furniture";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				255CFCDD28EB8C6C00B3E6DA /* ItemCell.swift in Sources */,
+				255CFD0828ECBF3600B3E6DA /* Experience.rcproject in Sources */,
 				255CFCC928EB70AF00B3E6DA /* ViewController.swift in Sources */,
 				255CFCC528EB70AF00B3E6DA /* AppDelegate.swift in Sources */,
 				255CFCC728EB70AF00B3E6DA /* SceneDelegate.swift in Sources */,
